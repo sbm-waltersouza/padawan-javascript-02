@@ -27,3 +27,13 @@ if (alturaEhValida && pesoEhValido) {
     var imc = peso / (altura * altura);
     tdImc.textContent = imc;
 }
+
+var botaoAdicionar = document.querySelector("#adicionar-paciente");
+botaoAdicionar.addEventListener("click", function(){
+    event.preventDefault();
+    console.log("oi eu sou o botao e fui clicado");
+
+
+
+
+});

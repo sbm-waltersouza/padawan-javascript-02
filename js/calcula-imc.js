@@ -1,4 +1,4 @@
-var titulo = document.querySelector(".titulo");
+var titulo = document.querySelector("#titulo-form");
 titulo.textContent = "Aparecida Nutricionista";
 
 var pacientes = document.querySelectorAll(".paciente");

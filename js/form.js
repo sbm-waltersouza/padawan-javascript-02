@@ -18,9 +18,9 @@ botaoAdicionar.addEventListener("click", function(event) {
 
     adicionaPacienteNaTabela(paciente);
  
-    //limpar o formulario
+  //  limpar o formulario
     form.reset();
-    var mensagensErro = document.querySelector("#tabela-pacientes");
+    var mensagensErro = document.querySelector("#mensagens-erro");
     mensagensErro.innerHTML = "";
 });
 
@@ -65,7 +65,6 @@ function montaTr(paciente) {
     pacienteTr.appendChild(montaTd(paciente.altura, "info-altura"));
     pacienteTr.appendChild(montaTd(paciente.gordura, "info-gordura"));
     pacienteTr.appendChild(montaTd(paciente.imc, "info-imc"));
-
     return pacienteTr;
 }
 
